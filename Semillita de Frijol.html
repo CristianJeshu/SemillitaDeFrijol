@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semillita de Frijol - Página de Estudio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #87ceeb;
+            padding: 1em 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin: 0 1em;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f0f8ff;
+        }
+        section {
+            padding: 2em;
+        }
+        h2 {
+            color: #4682b4;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4682b4;
+            color: white;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #4682b4;
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #5a9bd3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Semillita de Frijol</h1>
+        <p>Estudio Autónomo en Matemáticas, Programación, Física y Psicología</p>
+    </header>
+    <nav>
+        <a href="#metodologias">Metodologías</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="metodologias">
+        <h2>Metodologías</h2>
+        <p>Aquí describiré las diferentes metodologías de estudio autónomo que utilizo para aprender de manera eficiente y efectiva.</p>
+        <ul>
+            <li><strong>Aprendizaje basado en proyectos:</strong> Trabajar en proyectos específicos para aplicar y consolidar conocimientos.</li>
+            <li><strong>Estudio activo:</strong> Realizar ejercicios y prácticas constantes en lugar de solo leer o ver contenido.</li>
+            <li><strong>Autoevaluación:</strong> Realizar pruebas y exámenes autoimpuestos para medir el progreso y detectar áreas de mejora.</li>
+            <li><strong>Recursos en línea:</strong> Utilizar plataformas educativas y cursos en línea para acceder a materiales de calidad.</li>
+        </ul>
+    </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Aquí presento algunos de los proyectos que he desarrollado durante mi estudio autónomo.</p>
+        <ul>
+            <li><strong>Matemáticas:</strong> Desarrollo de algoritmos y resolución de problemas complejos.</li>
+            <li><strong>Programación:</strong> Creación de aplicaciones y scripts en diferentes lenguajes de programación.</li>
+            <li><strong>Física:</strong> Simulaciones y experimentos caseros para entender principios físicos.</li>
+            <li><strong>Psicología:</strong> Análisis y resúmenes de teorías y estudios psicológicos.</li>
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>
+            Contacto</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Semillita de Frijol. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
